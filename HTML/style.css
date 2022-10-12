@@ -15,12 +15,16 @@ main {
   margin: 50px auto;
   position: relative;
   display: flex;
-} 
+}
 
 .step-box {
   padding: 10px;
+  margin-right: 20px;
   position: relative;
   background-color: #eee;
+}
+.step-box:last-child{
+  margin-right: 0
 }
 
 
@@ -64,20 +68,20 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
- 
-  
+
+
   .step-box {
     margin-bottom: 20px;
-    
+
   }
   .step-box:last-child {
     margin-bottom: 20px;
   }
-  
+
   main {
     width: 90%;
     display: block;
   }
-  
+
 }
 
